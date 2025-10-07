@@ -50,7 +50,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-left md:text-center text-gray-500 text-sm mt-8">
-          © 2025 Ph — Assignment System.
+          © 2025 sohag.
           <br className="block md:hidden" /> All rights reserved.
         </div>
       </Container>
