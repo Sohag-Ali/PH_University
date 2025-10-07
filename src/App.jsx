@@ -2,6 +2,7 @@
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import IssuesManagement from "./Components/issuesManagement";
+import Loading from "./Components/Loading"
 import { Suspense } from "react";
 
 
@@ -18,8 +19,7 @@ function App() {
     <div>
       
       <Navbar></Navbar>
-      <Suspense fallback={"Loding..."
-      }>
+      <Suspense fallback={<Loading></Loading>}>
         <IssuesManagement fetchPromies={fetchPromies}></IssuesManagement>
       </Suspense>
       
